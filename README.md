@@ -155,4 +155,3 @@ To restart it later (your data will still be there):
 docker-compose up -d
 ```
 
-```
