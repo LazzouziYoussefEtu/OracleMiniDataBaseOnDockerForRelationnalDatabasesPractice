@@ -60,9 +60,11 @@ sudo usermod -aG docker $USER
 2.  **Start the Database**
     We use `docker-compose` to automate the startup and ensure your data is saved locally in the `oracle-data` folder.
 
+    
     ```bash
     docker-compose up -d
     ```
+    **NB** : keep in mind that the docker Container fetches the comtainer image password from `docker-compose.yml`, the property `environement.ORACLE_PASSWORD` 
 
     *Wait about 1-2 minutes for the database to fully initialize.*
 
