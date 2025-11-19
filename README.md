@@ -64,7 +64,7 @@ sudo usermod -aG docker $USER
     ```bash
     docker-compose up -d
     ```
-    **NB** : keep in mind that the docker Container fetches the comtainer image password from `docker-compose.yml`, the property `environement.ORACLE_PASSWORD` 
+    **NB** : keep in mind that the docker Container fetches the container image password from `docker-compose.yml`, the property `environement.ORACLE_PASSWORD` 
 
     *Wait about 1-2 minutes for the database to fully initialize.*
 
