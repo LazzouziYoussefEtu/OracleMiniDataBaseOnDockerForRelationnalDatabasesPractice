@@ -125,7 +125,7 @@ SQL Notebooks allow you to mix documentation (Markdown) with executable code blo
     Paste a PL/SQL block into the cell:
 
     ```sql
-    SET SERVEROUTPUT ON;
+
     DECLARE
         v_message VARCHAR2(50) := 'Hello from PL/SQL Notebook!';
     BEGIN
