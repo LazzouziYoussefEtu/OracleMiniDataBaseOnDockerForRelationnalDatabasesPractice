@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  oracle-db:
+    image: gvenzl/oracle-xe
+    container_name: oracle-practice-db
+    # Maps the container port to your local machine
+    ports:
+      - "1521:1521"
+    # Environment variables (matches the README password)
+    environment:
+      - ORACLE_PASSWORD=YourSecurePassword123
+      - APP_USER=admin
+      - APP_USER_PASSWORD=admin
+    # Saves database data to a local folder so you don't lose it
+    volumes:
+      - ./oracle-data:/opt/oracle/oradata
+    restart: always

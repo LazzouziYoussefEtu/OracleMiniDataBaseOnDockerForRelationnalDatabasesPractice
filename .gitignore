@@ -1,0 +1,12 @@
+# Ignore the local database storage (Heavy files)
+oracle-data/
+
+# Ignore VS Code local settings
+.vscode/
+
+# Ignore Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
