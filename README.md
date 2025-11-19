@@ -102,7 +102,7 @@ sudo usermod -aG docker $USER
 Use this method to initialize your database tables.
 
 1.  Navigate to the `scripts/` folder in the VS Code file explorer.
-2.  Open the `setup.sql` file.
+2.  Open the `setup.sql` file. Or change it to your liking (Optional).
 3.  Right-click anywhere in the editor and select **Execute All**.
 4.  This will create your practice tables and insert your initial dummy data.
 
