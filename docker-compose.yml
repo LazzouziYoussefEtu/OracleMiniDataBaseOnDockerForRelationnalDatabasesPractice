@@ -15,4 +15,3 @@ services:
     # Saves database data to a local folder so you don't lose it
     volumes:
       - ./oracle-data:/opt/oracle/oradata
-    restart: always
